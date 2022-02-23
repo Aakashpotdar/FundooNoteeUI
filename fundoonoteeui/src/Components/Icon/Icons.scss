@@ -1,0 +1,32 @@
+
+@mixin color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.pop-icon {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px
+}
+
+.pop-color {
+  @include color();
+  border: 2px solid #fff;
+  // box-shadow: inset 0px 1px rgb(223, 216, 216);
+}
+
+.pop-more {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.pop-option {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.pop-option:hover {
+  background-color: rgb(245, 245, 245);
+}

@@ -1,0 +1,23 @@
+.noteBox-container {
+    width: 220px;
+    align-items: flex-start;
+    @media (max-width:600px) {
+      width: 600px;
+    }
+}
+  
+.allNotes {
+  padding-left: 50px;
+  padding-bottom: 30px;
+  @media (max-width:500px) {
+    padding: 20px;
+  }
+}
+  
+.textBox {
+  padding: 100px;
+}
+
+Card{
+  align-content: flex-start;
+}

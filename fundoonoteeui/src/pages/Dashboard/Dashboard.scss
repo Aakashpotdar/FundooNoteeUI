@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans&family=Roboto:wght@400&display=swap');
+
+.typography {
+  color: #5f6368;
+  padding-left: 10px;
+}
+
+.img {
+  height: 40px;
+  width: 40px;
+}
+
+.search {
+  width: 53%;
+  padding-left: 5%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-left: 23%;
+}
+.profile {
+  display: flex;
+  justify-content: end;
+  width: 10%;
+}
+
+.profile-container {
+  height: 400px;
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-name {
+  font-family: 'DM Sans';
+}
+
+.profile-char {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color:#015aff;
+  border: 1px solid #dadce0;
+  font-size: xx-large;
+  color: #fff;
+}
+
+.char-container {
+  padding: 30px 30px 5px 30px;
+}
+
+.name-container {
+  padding: 5px 10px 5px 10px;
+}
+
+.email-container {
+  padding: 5px 10px 50px 10px;
+}
+
+.signout-container {
+  border-top:1px solid #dadce0;
+  border-bottom: 1px solid #dadce0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.add-account-container {
+  border-top:1px solid #dadce0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.signout-btn {
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #dadce0;
+  background-color: #fff;
+  font-family: 'DM Sans';
+  cursor: pointer;
+}
+
+.signout-btn:hover {
+  background-color: #dadce0;
+}
+
+.add-account-btn {
+  padding: 10px 20px 10px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  font-family: 'DM Sans';
+  cursor: pointer;
+}
+
+.add-account-btn:hover {
+  background-color: #dadce0;
+}

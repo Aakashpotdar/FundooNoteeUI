@@ -1,0 +1,95 @@
+.Text-name{
+    display: flexbox;
+    flex-direction: column;
+    align-items: flex-start;
+}
+TextField{
+
+    word-spacing: normal;
+}
+.div-user{
+    margin-bottom: 2px;
+    float: left;
+}
+.div-link{
+    margin-bottom: 30px;
+    text-align: left;
+}
+div{
+    margin-bottom: 10px;
+}
+TextField{
+    margin-right: none;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+.outer-Box{
+    display: flex;
+    align-self:center;
+    justify-content: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-style: solid;
+    padding: 30px;
+    background-color: #ffffff;
+    margin: 5% auto 15% auto;
+    border: 2px solid rgb(12, 11, 11);
+    width: 60%;
+}
+.outer-Box1{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-style: solid;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 5% auto 5% auto;
+    border: 2px solid rgb(12, 11, 11);
+    width: 25%;
+}
+.bu{
+    float: right;
+    align-items: flex-end;
+    width: 20%;
+}
+.reset{
+    float:right;
+    width: 50%;
+}
+.div-password{
+    display: flexbox;
+    flood-opacity: 2px;
+}
+ .link{
+     align-items: flex-start;
+ }
+.content-div{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.checkbox{
+    float: left;
+}
+.link-newuser{
+    float: left;
+}
+.div-img{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    width: 30%;
+    height: 50%;
+    align-items: center;
+    padding: 30px;
+    margin: 5% auto 15% auto;
+    padding-bottom: 50px;
+}
+.dev{
+    display: flex;
+    flex-direction: row;
+}
